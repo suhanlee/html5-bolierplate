@@ -26,3 +26,7 @@ html5 boilerplate template examples.
 
 ## Navigation Bar
 - horizontal_navigation_bar.html
+
+## Video Player
+- video.js example
+- custom refer to [https://codepen.io/heff/pen/EarCt](https://codepen.io/heff/pen/EarCt)
