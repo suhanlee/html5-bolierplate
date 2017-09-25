@@ -21,3 +21,4 @@ html5 boilerplate template examples.
 ## GRID
 - grid/static_grid.html
 - grid/dynamic_grid.html
+- grid/responsive_grid.html
