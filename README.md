@@ -23,3 +23,6 @@ html5 boilerplate template examples.
 - grid/static_grid.html
 - grid/dynamic_grid.html
 - grid/responsive_grid.html
+
+## Navigation Bar
+- horizontal_navigation_bar.html
