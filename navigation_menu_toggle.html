@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        @media (min-width: 768px) {
+
+            #menubtn { display: none;}
+            #menu { display: block !important;}
+            .menu ul {
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .menu li a {
+                display: block;
+                padding: 10px 15px;
+                color: #000000;
+                font-size: 14px;
+                text-decoration: none;
+            }
+            .menu li a:hover {
+                background-color: #eeeeee;
+            }
+            .menu li {
+                float: left;
+                width: auto;
+            }
+            .menu ul:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+        }
+
+        @media (max-width: 767px) {
+            #menu {
+                display: none;
+            }
+
+            #menubtn span {
+                display: inline-block;
+                text-indent: -9999px;
+            }
+
+            #menubtn {
+                padding: 6px 12px;
+                border: solid 1px #aaaaaa;
+                border-radius: 5px;
+                background-color: #ffffff;
+
+                position:absolute;
+                top: 20px;
+                right: 15px;
+                cursor: pointer;
+            }
+
+            #menubtn:hover {
+                background-color: #dddddd;
+            }
+            #menubtn:focus {
+                outline: none;
+            }
+            #menubtn i {
+                color: #888888;
+                font-size: 18px;
+            }
+
+            .menu ul {
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .menu li a {
+                display: block;
+                padding: 5px;
+                color: #000000;
+                font-size: 14px;
+                text-decoration: none;
+            }
+        }
+
+    </style>
+    <script src="https://use.fontawesome.com/3810934e83.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $("#menubtn").click(function() {
+               $("#menu").slideToggle();
+            });
+        })
+    </script>
+</head>
+<body>
+<button type="button" id="menubtn">
+    <i class="fa fa-bars"></i><span>MENU</span>
+</button>
+<nav class="menu" id="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu1</a></li>
+        <li><a href="#">Menu2</a></li>
+        <li><a href="#">Menu3</a></li>
+        <li><a href="#">Menu4</a></li>
+    </ul>
+</nav>
+<div class="content">
+
+</div>
+</body>
+</html>

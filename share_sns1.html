@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .content {
+            width: 80%;
+        }
+        .share ul{
+            list-style: none
+        }
+        .share {
+            margin-top: 40px;
+        }
+        .share ul:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .share li a {
+            display: block;
+            padding: 10px 5px;
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        .share li a:hover {
+            background-color: #eeeeee;
+            opacity: 0.8;
+        }
+        .share li {
+            float: left;
+            width: 33.3333%;
+        }
+
+        .share-tw {
+            background-color: #55acee
+        }
+        .share-fb {
+            background-color: #3b5998
+        }
+        .share-gp {
+            background-color: #dd4b39
+        }
+
+        @media (max-width: 599px) {
+            .share span {
+                display: inline-block;
+                text-indent: -9999px;
+            }
+        }
+    </style>
+    <script src="https://use.fontawesome.com/3810934e83.js">
+
+    </script>
+</head>
+<body>
+    <div class="content">
+        <div class="share">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/intent/tweet?text=hello&amp;url=http://www.google.com&amp;via="
+                       class="share-tw">
+                        <i class="fa fa-twitter"></i>
+                        <span>Twitter</span>로 공유
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.facebook.com/share.php?u=http://www.google.com" class="share-fb">
+                        <i class="fa fa-facebook"></i>
+                        <span>Facebook</span>로 공유
+                    </a>
+                </li>
+                <li>
+                    <a href="http://plus.google.com/share?url=http://www.google.com" class="share-gp">
+                        <i class="fa fa-google"></i>
+                        <span>Google</span>로 공유
+                    </a>
+                </li>
+            </ul>
+        </div>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </div>
+
+
+</body>
+</html>
