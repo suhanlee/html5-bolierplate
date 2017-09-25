@@ -14,6 +14,7 @@ html5 boilerplate template examples.
 
 ## Thumbnail caption
 - thumbnail_caption.html
+- thumbnail_caption2.html
 
 ## FONT
 - local_font.html
