@@ -11,3 +11,9 @@ html5 boilerplate template examples.
 ## Sharing SNS(Twitter, Facebook, Google)
 - share_sns1.html
 - share_sns2.html
+
+## Thumbnail caption
+- thumbnail_caption.html
+
+## FONT
+- local_font.html
