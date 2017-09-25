@@ -17,3 +17,7 @@ html5 boilerplate template examples.
 
 ## FONT
 - local_font.html
+
+## GRID
+- grid/static_grid.html
+- grid/dynamic_grid.html
