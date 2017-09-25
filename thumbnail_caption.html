@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        .thumbnail-list {
+            list-style: none;
+        }
+
+        .thumbnail-list li {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .thumbnail {
+            width: 200px;
+            height: auto;
+
+            position: relative;
+        }
+
+        .thumbnail:hover {
+            opacity: 0.5;
+        }
+        .thumbnail img {
+            width: 100%;
+            display: block;
+
+            border-radius: 10px;
+
+        }
+        .thumbnail .caption {
+            width: 100%;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            padding: 5px 10px;
+
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <ul class="thumbnail-list">
+        <li>
+            <div class="thumbnail">
+                <a href="#">
+                    <img src="https://avatars1.githubusercontent.com/u/2666166?v=4&s=400&u=e9222752a65412ab2b4a0459fcb2932ae7c7620c">
+                    <div class="caption">
+                        Hello World!
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="thumbnail">
+                <img src="https://avatars1.githubusercontent.com/u/2666166?v=4&s=400&u=e9222752a65412ab2b4a0459fcb2932ae7c7620c">
+                <div class="caption">
+                    Hello World!
+                </div>
+            </div>
+        </li>
+    </ul>
+
+</body>
+</html>
