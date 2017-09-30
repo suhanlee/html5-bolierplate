@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
+
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .column img {
+        margin-top: 12px;
+        width: 100%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <h1>Image Grid</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+    <div class="column">
+        <img src="https://dummyimage.com/600x400/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/600x320/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/300x100/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/960x540/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/180x400/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/200x400/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/100x400/000/fff" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="https://dummyimage.com/300x100/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/200x200/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/100x400/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/700x400/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/400x300/000/fff" style="width:100%">
+        <img src="https://dummyimage.com/500x400/000/fff" style="width:100%">
+    </div>
+
+</div>
+
+</body>
+</html>
