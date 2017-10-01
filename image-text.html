@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+            width: 300px;
+        }
+
+        .container img {
+            width: 100%;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* width/2, height/2 */
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://avatars1.githubusercontent.com/u/2666166?v=4&s=400&u=e9222752a65412ab2b4a0459fcb2932ae7c7620c">
+        <div class="top-left">
+            top-left
+        </div>
+        <div class="top-right">
+            top-right
+        </div>
+        <div class="center">
+            center
+        </div>
+        <div class="bottom-left">
+            bottom-left
+        </div>
+        <div class="bottom-right">
+            bottom-right
+        </div>
+    </div>
+</body>
+</html>
