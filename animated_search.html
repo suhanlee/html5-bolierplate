@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        input[type=text] {
+            width: 130px;
+            -webkit-transition: width 0.4s ease-in-out;
+            -transition: width 0.4s ease-in-out;
+
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+
+            position: relative;
+
+        }
+
+        input[type=text]:focus {
+            width: 100%;
+        }
+
+        .wrap {
+            position: relative;
+        }
+
+        .wrap:after {
+            content: "\f002";  /* search icon unicode */
+            font-family: FontAwesome;
+            font-size: 16px;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+
+    </style>
+    <script src="https://use.fontawesome.com/3810934e83.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <input type="text" name="search" placeholder="Search...">
+    </div>
+</body>
+</html>
