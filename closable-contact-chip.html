@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .chip {
+            display: inline-block;
+            padding: 0 25px;
+            height: 50px;
+            font-size: 18px;
+            line-height: 50px;
+            border-radius: 25px;
+            background-color: #f1f1f1;
+        }
+
+        .chip img {
+            float: left;
+            margin: 0 10px 0 -25px;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+
+        .closebtn {
+            padding-left: 10px;
+            color: #888;
+            font-weight: bold;
+            float: right;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .closebtn:hover {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<p>Click on the "x" symbol to delete the contact.</p>
+
+<div class="chip">
+    <img src="https://avatars1.githubusercontent.com/u/2666166?v=4&s=400&u=e9222752a65412ab2b4a0459fcb2932ae7c7620c" alt="Person" width="96" height="96">
+    Kyle
+    <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+</div>
+
+</body>
+</html>
